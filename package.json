@@ -1,6 +1,7 @@
 {
   "name": "golden-app",
   "version": "0.1.0",
+  "homepage": "https://lgkonline.github.io/golden-app/",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
