@@ -24,7 +24,7 @@ function App() {
     return (
         <div className="App container-fluid">
             <div className="row">
-                <div className="col-2 col-md-3 bg-dark" style={{ height: "100vh" }}>
+                <div className="col-3 col-sm-2 col-md-3 bg-dark" style={{ height: "100vh" }}>
                     <nav className="App-nav offset-lg-3 nav flex-column mt-3">
                         {navItems.map((navItem, index) =>
                             <a
@@ -39,7 +39,7 @@ function App() {
                     </nav>
                 </div>
 
-                <div className="col-10 col-md-8">
+                <div className="col-9 col-sm-10 col-md-8">
                     <h1 className="display-4 mt-4 mb-3">Awesome app</h1>
 
                     <div className="bg-primary w-100" style={{ height: "300px" }} />
