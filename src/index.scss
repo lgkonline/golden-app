@@ -1,0 +1,26 @@
+@import "./scss/variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background: url(https://images.pexels.com/photos/1224859/pexels-photo-1224859.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.App-nav {
+    .nav-link {
+        transition: background-color .2s;
+        border-radius: 2 * $spacer;
+        font-size: $font-size-lg;
+
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            background-color: rgba($primary, .1);
+            color: $primary;
+        }
+
+        &:not(.active) {
+            color: $body-color;
+        }
+    }
+}
